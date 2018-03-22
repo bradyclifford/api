@@ -41,8 +41,14 @@ https://github.com/stefanprodan/WebApiThrottle
 http://nugetmusthaves.com/Tag/throttling
 
 # Microservices
+http://microservices.io/patterns/microservice-chassis.html
+
 ## Datbase per service
 http://microservices.io/patterns/data/database-per-service.html
 
 ## Api Gateway
 http://microservices.io/patterns/apigateway.html
+
+## Micro-sites
+https://www.mosaic9.org/
+https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
