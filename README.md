@@ -51,4 +51,5 @@ http://microservices.io/patterns/apigateway.html
 
 ## Micro-sites
 https://www.mosaic9.org/
+https://www.youtube.com/watch?v=m32EdvitXy4&feature=youtu.be
 https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
