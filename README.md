@@ -3,6 +3,7 @@
 ## Best Practices
 * https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design
 * https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+https://mathieu.fenniak.net/the-api-checklist/
 * http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 * http://www.restapitutorial.com/lessons/restquicktips.html
 
@@ -28,3 +29,20 @@ Should use header: https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14
 
 ## Versioning
 Suggested by many to use Uri with a version for major releases.  Use header versioning for minor version.
+https://mathieu.fenniak.net/aint-nobody-got-time-for-that-api-versioning/
+
+# Caching
+## ETags
+Good for optimistic concurrency checks and caching.
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
+
+# Throttling Endpoints
+https://github.com/stefanprodan/WebApiThrottle
+http://nugetmusthaves.com/Tag/throttling
+
+# Microservices
+## Datbase per service
+http://microservices.io/patterns/data/database-per-service.html
+
+## Api Gateway
+http://microservices.io/patterns/apigateway.html
