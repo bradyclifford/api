@@ -46,6 +46,9 @@ http://microservices.io/patterns/microservice-chassis.html
 ## Datbase per service
 http://microservices.io/patterns/data/database-per-service.html
 
+## Failure
+Need circut breakers and failovers
+
 ## Api Gateway
 http://microservices.io/patterns/apigateway.html
 
@@ -53,3 +56,11 @@ http://microservices.io/patterns/apigateway.html
 https://www.mosaic9.org/
 https://www.youtube.com/watch?v=m32EdvitXy4&feature=youtu.be
 https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
+
+# Event-Driven Architecture
+https://www.youtube.com/watch?v=STKCRSUsyP0
+
+1. Event Notification
+1. Event-carried State Transfer: each service keeps a copy of the data it needs
+1. Event Sourcing
+1. CQRS
