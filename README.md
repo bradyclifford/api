@@ -35,6 +35,7 @@ https://mathieu.fenniak.net/aint-nobody-got-time-for-that-api-versioning/
 ## ETags
 Good for optimistic concurrency checks and caching.
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
+https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-implementation#provide-etags-to-optimize-query-processing
 
 # Throttling Endpoints
 https://github.com/stefanprodan/WebApiThrottle
