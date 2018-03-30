@@ -62,42 +62,42 @@ https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture
 ### Solutions
 #### iframe
 https://news.ycombinator.com/item?id=13012916
- + isolates each app, no conflicts
- + fairly simple setup
- + inter-frame messaging is possible
- - no combining of assets
- - iframe nesting > 1 causes significant issues
+ * (+) isolates each app, no conflicts
+ * (+) fairly simple setup
+ * (+) inter-frame messaging is possible
+ * (-) no combining of assets
+ * (-) iframe nesting > 1 causes significant issues
               
 #### Server-side includes (with NGINX, Google Pagespeed)
 https://gustafnk.github.io/microservice-websites
 https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
- + bundling of assets
- + low to moderate complexity
- - page only loads as fast as the slowest include
- - conflicts between different framework versions (e.g. 2 versions of react)
- - templating might be tricky (e.g. how to do one page without a footer)
+ * (+) bundling of assets
+ * (+) low to moderate complexity
+ * (-) page only loads as fast as the slowest include
+ * (-) conflicts between different framework versions (e.g. 2 versions of react)
+ * (-) templating might be tricky (e.g. how to do one page without a footer)
  
 #### Custom html elements
 https://micro-frontends.org/
- + bundling of assets
- + uses shadow DOM to isolate assets
- + low to moderate complexity
- + custom elements are a web standard, so all js frameworks support them
- - some issues with React support
+ * (+) bundling of assets
+ * (+) uses shadow DOM to isolate assets
+ * (+) low to moderate complexity
+ * (+) custom elements are a web standard, so all js frameworks support them
+ * (-) some issues with React support
               
 #### Single-SPA
 https://github.com/CanopyTax/single-spa
 https://github.com/joeldenning/simple-single-spa-webpack-example
 https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16
- + bundling of assets
- + lazy loading
- + allows multiple frameworks on single page (even different versions of same framework)
- + seems fairly straightforward to set up site & routing
+ * (+) bundling of assets
+ * (+) lazy loading
+ * (+) allows multiple frameworks on single page (even different versions of same framework)
+ * (+) seems fairly straightforward to set up site & routing
               
 #### Mosaic9 Custom Framework
 https://www.mosaic9.org/
- - complexity seems high
- - several custom libraries with learning curve
+ * (-) complexity seems high
+ * (-) several custom libraries with learning curve
 
 # Event-Driven Architecture
 https://www.youtube.com/watch?v=STKCRSUsyP0
