@@ -30,6 +30,7 @@ Should use header: https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14
 ## Versioning
 Suggested by many to use Uri with a version for major releases.  Use header versioning for minor version.
 https://mathieu.fenniak.net/aint-nobody-got-time-for-that-api-versioning/
+https://github.com/Microsoft/aspnet-api-versioning/wiki
 
 # Caching
 ## ETags
